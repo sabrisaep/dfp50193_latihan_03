@@ -22,7 +22,23 @@
     $hadir = false;
     $umur = 22;
     $nokp = '0011122334455';
-
     ?> 
+
+    <p>
+        <?php
+        echo 20 . 21;
+        ?>
+    </p>
+
+    <h2>
+        <?php
+        $bandar = 'Arau';
+        $baru = 'Bandar: ';
+        for($x = 0; $x < strlen($bandar); $x++) {
+            $baru .= $bandar[$x] . ' ';
+        }
+        echo $baru;
+        ?>
+    </h2>
 </body>
 </html>
